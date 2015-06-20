@@ -1,0 +1,31 @@
+{
+  "name": "SmsAppUrl",
+  "description": "Send the URL for your app via SMS from the web.",
+  "website": "http://www.kohactive.com",
+  "env": { 
+    "RAILS_ENV": "production",
+    "TWILIO_SID": {
+      "description": "Your Account SID from twilio"
+    },
+    "TWILIO_TOKEN": {
+      "description": "Your Authentication token from twilio"
+    },
+    "TWILIO_NUMBER": {
+      "description": "The number you bought on twilio to send SMS from. (+15671234567)"
+    },
+    "MESSAGE": {
+      "description": "The message to send your users. Limit 140 characters."
+    },
+    "SUCCESS_URL": {
+      "description": "The url to redirect a user to after the submit the form.",
+      "value": "http://yoursite/success_url"
+    },
+    "FAIL_URL": {
+      "description": "The url to redirect if a problem occurs.",
+      "value": "http://yoursite/fail_url"
+    }
+  },
+  "repository": "https://github.com/j-mcnally/sms-app-url",
+  "logo": "https://avatars2.githubusercontent.com/u/109142?v=3&s=200",
+  "keywords": ["twilio", "app store"]
+}

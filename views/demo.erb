@@ -1,0 +1,15 @@
+<h1>Test send</h1>
+
+<% if params["fail"] %>
+  Unable to send the message, please check the phone # and try again.
+<% end %>
+
+<% if params["success"] %>
+  Message sent, please check your SMS for the download link.
+<% end %>
+
+
+<form action="/sendurl" method="POST">
+  <input type="phone" name="web_to" placeholder="Your phone number." />
+  <input type="submit" value="Send me the app">
+</form>
