@@ -1,6 +1,6 @@
 # SMS APP URL
 
-Easily send a url to your app via SMS.
+Easily send a url to your app via SMS using Twilio.
 
 Users enter their number on a form, and the app will send them the app download url.
 
